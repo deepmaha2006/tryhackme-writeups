@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/picture.png" alt="TryHackMe Database logo" width="180" height="180">
+<img src="assets/picture.png" alt="TryHackMe Database banner" width="100%">
 
 # TryHackMe Database
 
