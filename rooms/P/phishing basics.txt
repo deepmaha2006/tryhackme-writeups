@@ -1,0 +1,38 @@
+Phishing Basics
+https://tryhackme.com/room/phishingbasics
+
+What type of phishing uses text messages as the delivery method?
+SMS
+
+What type of phishing targets high-profile executives?
+Whaling
+
+This exploits time pressure to force quick decisions.
+Urgency
+
+Authority is leveraged to increase compliance.
+Authority
+
+This leverages human desire for novelty and hidden information.
+Curiosity
+
+This triggers emotional panic and risk avoidance behavior.
+Fear
+
+Attackers register similar-looking domains to exploit typing errors.
+Typosquatting
+
+Core email authentication mechanisms are used to prevent spoofing.
+DKIM, DMARC, SPF
+
+A 6% credential submission rate indicates a significant exposure risk.
+High risk
+
+This metric tracks how many users interact with malicious attachments.
+Attachment Detonation Rate
+
+A 10% click rate indicates users need targeted behavioral improvement.
+Focused security awareness training
+
+What is the flag?
+THM{you_just_got_phished!}
