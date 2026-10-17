@@ -23,7 +23,7 @@ What is the binary value of the decimal number 78?
 01001110
 
 What is the URL encoded value of https://tryhackme.com/r/careers?
-https://tryhackme.com/r/careers____________
+https%3A%2F%2Ftryhackme%2Ecom%2Fr%2Fcareers
 
 Using the file you downloaded in Task 5, which IP starts and ends with "10"?
 10.10.2.10
