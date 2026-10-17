@@ -17,7 +17,7 @@ If you wanted to use a framework that was free and open-source, what framework w
 CVSS
 
 Using NVD, how many CVEs were published in July 2021?
-1554
+1585
 
 Who is the author of Exploit-DB?
 OffSec
