@@ -1,44 +1,44 @@
 Phishing Analysis Fundamentals
 https://tryhackme.com/room/phishingemails1tryoe
 
-Email dates back to what time frame?
-1970s
+Identify the domain used in the following email address: hatsalesman@tryhatme.com
+tryhatme.com
 
-What port is classified as Secure Transport for SMTP?
-465
+Which protocol is responsible for sending an email from a client to a mail server?
+SMTP
 
-What port is classified as Secure Transport for IMAP?
-993
+Which service is used to look up the recipient domain's mail server?
+DNS
 
-What port is classified as Secure Transport for POP3?
-995
+Bob wants to access his email from multiple devices, including his phone and laptop. Which protocol should he use?
+IMAP
 
-What email header is the same as "Reply-to"?
-Return-Path
+What is the full subject line of email1.eml?
+Help protect your budget by protecting your home
 
-Once you find the email sender's IP address, where can you retrieve more information about the IP?
-http://www.arin.net
+What the IP address listed as the X-Originating-Ip?
+43.255.56.161
 
-In the above screenshots, what is the URI of the blocked image?
-https://i.imgur.com/LSWOtDI.png
+What is the Content-Type of the attachment?
+application/pdf
 
-In the above screenshots, what is the name of the PDF attachment?
-Payment-updateid.pdf
+What is the name of the attachment from the previous question?
+zmqpalgh.pdf
 
-In the attached virtual machine, view the information in email2.txt and reconstruct the PDF using the base64 data. What is the text within the PDF?
+What is the hidden flag value?
 THM{BENIGN_PDF_ATTACHMENT}
 
-What trusted entity is this email masquerading as?
+Which reputable organization is being spoofed in this phishing attempt?
 Home Depot
 
-What is the sender's email?
+What is the sender's email address?
 support@teckbe.com
 
-What is the subject line? 
-Order Placed : Your Order ID OD2321657089291 Placed Successfully
+What is the defanged X-Originating-IP?
+103[.]234[.]236[.]83
 
-What is the URL link for - CLICK HERE? (Enter the defanged URL)
-hxxp[://]t[.]teckbe[.]com/p/?j3=EOowFcEwFHl6EOAyFcoUFV=TVEchwFHlUFOo6lVTTDcATE7oUE7AUET==
+Which mail server generated the Authentication-Results header?
+atlas102.free.mail.gq1.yahoo.com
 
-What is BEC?
+What attack, signified by the acronym BEC, uses a compromised email to trick employees into fraud?
 Business Email Compromise
