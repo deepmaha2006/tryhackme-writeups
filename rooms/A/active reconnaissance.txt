@@ -17,10 +17,10 @@ Deploy the VM for this task and using the AttackBox terminal, issue the command 
 10
 
 In Traceroute A, what is the IP address of the last router/hop before reaching tryhackme.com?
-172.67.69.208
+100.92.9.83
 
 In Traceroute B, what is the IP address of the last router/hop before reaching tryhackme.com?
-104.26.11.229
+99.83.89.19
 
 In Traceroute B, how many routers are between the two systems?
 26
