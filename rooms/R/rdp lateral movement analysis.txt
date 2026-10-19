@@ -1,0 +1,47 @@
+RDP Lateral Movement Analysis
+https://tryhackme.com/room/rdplateralmovementanalysis
+
+What is the default TCP port used by RDP?
+3389
+
+Which authentication mechanism pre-authenticates RDP users before a session is created?
+NLA
+
+According to MITRE ATT&CK, what is the sub-technique ID for Remote Desktop Protocol under Remote Services?
+T1021.001
+
+On the source workstation, which user account launched the RDP client (mstsc.exe)?
+michelle.smith
+
+What is the IP address of the destination the client connected to on TCP 3389?
+10.5.30.155
+
+What destination hostname did the RDP client attempt to connect to?
+THM-SHR-SRV
+
+Which account successfully authenticated at the destination over RDP?
+luke.sullivan
+
+How many bitmap cache tiles did bmc-tools recover from the source host?
+2701
+
+According to the MSTSC.EXE prefetch, what was the last execution time of the RDP client? (Answer Format: YYYY-MM-DD HH:MM:SS)
+2026-05-18 05:15:10
+
+An unusual RDP session landed on a file server from a non-standard subnet. What is the source workstation IP?
+10.5.50.20
+
+What account was used to authenticate that session?
+adm-rachel.brooks
+
+Continuing the trail, what is the second host the operator landed on after the file server?
+THM-SQL-SRV
+
+On the final destination, the operator executed a binary from C:\Windows\Temp\. What is the filename?
+locker.exe
+
+What scheduled task did the operator create to persist the binary?
+Updater
+
+Which Group Policy setting enforces Network Level Authentication for incoming RDP connections?
+Require user authentication for remote connections by using Network Level Authentication
