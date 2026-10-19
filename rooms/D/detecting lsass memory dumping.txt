@@ -1,0 +1,43 @@
+Detecting LSASS Memory Dumping
+https://tryhackme.com/room/detectinglsassmemorydumping
+
+Run Mimikatz by following the APT41 example.
+What is the NT (NTLM) hash of Administrator?
+d6da33571333169add40f1bb8050cd36
+
+Run runas.ps1. It will simulate an interactive user logon.
+What new user do you see after running klist sessions?
+zoe.mercer
+
+Run Mimikatz again. Now you should see a user from Q2.
+What is the NT (NTLM) hash of that user?
+58a478135a93ac3bf058a5ea0e8fdb71
+
+The WindowsTweaker malware used its own dumping capabilities first.
+Which access mask did it use to dump LSASS?
+0x1F3FFF
+
+The C2 also used a masqueraded comsvcs.dll copy.
+What command line was used to dump LSASS via this method?
+rundll32 C:\ProgramData\mstel.dll,MiniDump 576 C:\Windows\Temp\lsass.bin full
+
+What is the size of the LSASS dump from Q2, in megabytes?
+(Answer using the number shown in the file properties, such as "22.9")
+41.5
+
+What is the path to the dump file, as revealed by MFT records?
+C:\Users\Public\Documents\lsass.exe.dmp
+
+What binary is likely responsible for creating the dump file?
+C:\Users\Administrator\ph\ph.exe
+
+What program does this binary represent (e.g., Mimikatz)?
+Process Hacker
+
+Run Mimikatz after enabling LSA Protection.
+What error name do you see (e.g., kuhl_err)?
+kuhl_m_sekurlsa_acquireLSA
+
+Install the Mimikatz driver by running the commands from the task.
+What is the ServiceType of the generated System Event ID 7045?
+kernel mode driver
