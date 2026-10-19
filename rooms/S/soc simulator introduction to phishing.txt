@@ -1,0 +1,20 @@
+SOC Simulator Introduction to Phishing
+https://tryhackme.com/room/socsimulatorintroductiontophishing
+
+Which documentation tab lists the company's employees?
+Company information
+
+An alert fires on activity that turns out to be completely legitimate. Is it a true positive or a false positive?
+false positive
+
+Is this alert a true positive or a false positive?
+false positive
+
+What did the firewall do with that connection?
+blocked
+
+Does this alert need escalation? (Yea/Nay)
+Nay
+
+Does this alert need escalation? (Yea/Nay)
+Yea
