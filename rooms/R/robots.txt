@@ -5,3 +5,4 @@ What is the value of the user flag?
 
 
 What is the value of the root flag?
+THM{2a279561f5eea907f7617df3982cee24}
